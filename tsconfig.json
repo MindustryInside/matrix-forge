@@ -1,0 +1,12 @@
+{
+    "include": ["src/**/*.ts"],
+    "compilerOptions": {
+        "outDir": "./dist",
+        "declarationDir": "./dist",
+        "module": "CommonJS",
+        "target": "ES6",
+        "declaration": true,
+        "alwaysStrict": true,
+        "strict": true,
+    },
+}

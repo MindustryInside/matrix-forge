@@ -1,0 +1,37 @@
+{
+    "name": "matrix-forge",
+    "version": "1.0.0",
+    "description": "Discord webhook to connect Matrix chatrooms.",
+    "keywords": [
+        "typescipt",
+        "matrix",
+        "discord",
+        "webhook"
+    ],
+    "license": "GPL-3.0-only",
+    "contributors": [
+        {
+            "name": "Andrew Antsiferov",
+            "email": "summet.dev@gmail.com",
+            "url": "https://github.com/antsif-a"
+        }
+    ],
+    "main": "./build/index.js",
+    "types": "./build/index.d.ts",
+    "scripts": {
+        "prestart": "tsc",
+        "start": "node ./dist/index.js",
+        "lint": "eslint . --cache",
+        "lint:fix": "eslint . --cache --fix"
+    },
+    "devDependencies": {
+        "@types/node": "^14.6.3",
+        "@typescript-eslint/eslint-plugin": "^5.13.0",
+        "@typescript-eslint/parser": "^5.0.0",
+        "eslint": "^8.20.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-airbnb-typescript": "^17.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "typescript": "^4.0.2"
+    }
+}
